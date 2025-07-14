@@ -1,0 +1,37 @@
+using tcp.flags.syn == 1 and tcp.flag.ack == 1
+
+we get 7 services 
+
+
+
+using network miner we get the dumped malware send to 
+joshua@cyberdefenders.org
+
+
+malicous link
+http://192.168.112.128/word.html
+
+
+checking useragent since the user enter to url from word 
+15.0.4517 this is her user agaent for microsovt office 
+
+malicous js installer for cab file 
+http://192.168.112.128/word.cab
+
+
+chcekcing he code we find zipslip vuln 
+
+
+extracting with 7z and checking fiels we find that the file has a false extension and it 
+is a excutable 
+
+
+analis with strings we find calssic way or running process hollowing 
+with WriteProcessMemory
+
+extracting shellcode by analysing the sample 
+and using scdbg to check the shellcode we find it is loading 
+wininet 
+
+
+we find the port used is 443 also 
