@@ -1,5 +1,7 @@
 # Analysis of Potential Security Breach Involving Magic Hound
 
+Lablink: [APT35 Challenge](https://cyberdefenders.org/blueteam-ctf-challenges/apt35/)
+
 You receive an urgent notification from your cybersecurity team about a potential security breach involving a sophisticated threat group known as Magic Hound. This Iranian-sponsored group has been conducting cyber espionage operations targeting government officials, journalists, and organizations since 2014.
 
 The incident involves a suspicious app that appears to be disguising itself as VPN software on the Google Play Store. The app is designed to steal sensitive information, including call logs, text messages, contacts, and location data, from infected Android devices. While Google managed to quickly detect and remove the app from the Play Store, the threat is not entirely mitigated, as the group has been known to distribute similar spyware on other platforms even as recently as July 2021.
